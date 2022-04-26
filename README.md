@@ -30,7 +30,7 @@ Import the required packages(pandas,numpy,seaborn).
  Save the final data set into the file.
 
  ### CODE:
- `
+ ```
 import pandas as pd 
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -64,7 +64,7 @@ pd.crosstab(df["Total"],df["Payment"])
 pd.crosstab(df["Quantity"],df["City"])
 df.corr()
 sns.heatmap(df.corr(),annot=True)
-`
+```
 ### OUTPUT:
 ![output](/v1.png)
 ![output](/v2.png)
